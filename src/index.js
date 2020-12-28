@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import "../node_modules/bootstrap/dist/css/bootstrap.css"
 
-
+process.env.CI=false
 ReactDOM.render(
   <React.StrictMode>
     <App />
